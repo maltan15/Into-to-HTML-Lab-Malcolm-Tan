@@ -1,0 +1,83 @@
+.topnav {
+    background-color: #b86d67;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 12px 11%;
+    text-decoration: none;
+    font-size: 17px;
+    word-spacing: 100000px;
+    font-family:Helvetica;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  body
+  {
+    font-family: Helvetica;
+  }
+
+header
+{
+    font-family: Helvetica;
+  }
+
+  a:link {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: white;
+    background-color: transparent;
+      }
+  
+  a:active {
+    color: white;
+    background-color: transparent;
+  }
+
+  .table {
+      border-collapse:collapse;
+      border:1px solid #000000;
+      }
+      
+    .table td{
+      border:1px solid #000000;
+  }
+
+  .backbutton{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    border-collapse:collapse;
+    border:1px solid #000000;
+  }
+
+  .branches{
+    text-align: center;
+    }
+
+.footer{
+  color:black;
+}
